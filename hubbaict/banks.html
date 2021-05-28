@@ -33,7 +33,16 @@
 
         .zoom:hover {
         transform: scale(1.05); /* (150% zoom)*/
-        background-color:#8c008c;
+        background-color:#992b53;
+        }
+        
+        .zoom2 {
+          color:white;
+        transition: transform .1s; /* Animation */
+        }
+
+        .zoom2:hover {
+        transform: scale(1.05); /* (150% zoom)*/
         }
 
         .main-content{
@@ -43,6 +52,10 @@
 
         .navbar{
             background-color:#7e002e;
+        }
+        
+        .card-header{
+          background-color:#f3e6e6;
         }
 
       @media (min-width: 768px) {
@@ -79,31 +92,31 @@
       <div class="position-sticky pt-3" >
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="index.html">
+            <a class="nav-link zoom2" aria-current="page" href="index.html">
               <span data-feather="home"></span>
               All
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="baict.html">
+            <a class="nav-link zoom2" href="baict.html">
               <span data-feather="cpu"></span>
               BAICT
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="officialsites.html">
+            <a class="nav-link zoom2" href="officialsites.html">
                 <span data-feather="globe"></span>
               Official Sites
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="mails.html">
+            <a class="nav-link zoom2" href="mails.html">
               <span data-feather="mail"></span>
               Mails
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="banks.html">
+            <a class="nav-link zoom2 active" href="banks.html">
               <span data-feather="dollar-sign"></span>
               Banks
             </a>

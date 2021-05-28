@@ -42,7 +42,16 @@
 
         .zoom:hover {
         transform: scale(1.05); /* (150% zoom)*/
-        background-color:#8c008c;
+        background-color:#992b53;
+        }
+
+        .zoom2 {
+          color:white;
+        transition: transform .1s; /* Animation */
+        }
+
+        .zoom2:hover {
+        transform: scale(1.05); /* (150% zoom)*/
         }
 
         .main-content{
@@ -92,31 +101,31 @@
       <div class="position-sticky pt-3" >
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">
+            <a class="nav-link zoom2 active" aria-current="page" href="#">
               <span data-feather="home"></span>
               All
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="baict.html">
+            <a class="nav-link zoom2" href="baict.html">
               <span data-feather="cpu"></span>
               BAICT
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="officialsites.html">
+            <a class="nav-link zoom2" href="officialsites.html">
                 <span data-feather="globe"></span>
               Official Sites
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="mails.html">
+            <a class="nav-link zoom2" href="mails.html">
               <span data-feather="mail"></span>
               Mails
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="banks.html">
+            <a class="nav-link zoom2" href="banks.html">
               <span data-feather="dollar-sign"></span>
               Banks
             </a>
@@ -146,7 +155,7 @@
             <h4 class="my-0 fw-bold">BAICT</h4>
           </div>
           <div class="card-body">
-            <img class="mb-3" src="assets/img/baict.png" alt="" width="120px" height="100px">
+            <img class="mb-3" src="assets/img/baict.png" alt="" width="100px" height="100px">
             <div class="link-list d-grid gap-2">
               <input type=button onClick="window.open('https://linktr.ee/digitalauditjan')" value='LINKTREE' target="_blank" class="zoom">
               <input type=button onClick="window.open('http://10.28.56.35:2112/apps/login/index.html?dest=%2Fapps%2Fshell%2Findex.html#/login')" value='Insta BI' target="_blank" class="zoom">
